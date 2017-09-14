@@ -7,7 +7,6 @@ use std::str::FromStr;
 use std::fs::File;
 use image::ColorType;
 use image::png::PNGEncoder;
-use num::Complex;
 
 // Try to determine if `c` is in the Mandelbrot set, using at most `limit`
 // iterations to decide.
