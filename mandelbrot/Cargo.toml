@@ -2,8 +2,9 @@
 name = "mandelbrot"
 version = "0.1.0"
 authors = ["Yung-Jin (Joey) Hu <yungjinhu@gmail.com>"]
+edition = "2018"
 
 [dependencies]
-num = "0.1.27"
-image = "0.6.1"
-crossbeam = "0.2.8"
+num = "0.4"
+image = "0.23"
+crossbeam = "0.8"
